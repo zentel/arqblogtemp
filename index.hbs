@@ -2,6 +2,7 @@
 <div class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
     <div class="vertical site-head-content inner">
         <a href="{{@blog.url}}"><h1 class="blog-title">{{@blog.title}}</h1></a>
+        <h2 class="blog-description">{{@blog.description}}</h2>
         <div class="head-social">
             {{! Including the social template (partials/social)}}
             {{> social}}
